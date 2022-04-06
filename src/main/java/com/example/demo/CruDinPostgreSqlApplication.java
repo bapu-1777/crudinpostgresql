@@ -17,6 +17,9 @@ public class CruDinPostgreSqlApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		this.studentdao.createTable();
+//		this.studentdao.createTable();
+		this.studentdao.insertData("mayank","ahmedabad");
 	}
+
+
 }
